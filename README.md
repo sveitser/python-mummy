@@ -14,6 +14,7 @@ Collection of stuff that keeps coming up when creating python projects.
   + [x] flake8
   + [x] pylint
   + [x] mypy
+  + [x] vulture
 - [x] CI
   + [x] travis
   + [x] circleci

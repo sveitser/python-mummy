@@ -12,5 +12,7 @@ matrix:
       env: TOXENV=flake8
     - python: "3.6"
       env: TOXENV=mypy
+    - python: "3.6"
+      env: TOXENV=vulture
 sudo: false
 script: tox -e $TOXENV

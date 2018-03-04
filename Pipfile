@@ -16,6 +16,7 @@ pytest-coverage = "*"
 pylint = "*"
 mypy = "*"
 "flake8" = "*"
+vulture = "*"
 
 
 [requires]
