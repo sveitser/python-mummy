@@ -11,11 +11,13 @@ Collection of stuff that keeps coming up when creating python projects.
 - [x] setup.py
 - [x] [pipenv](https://github.com/pypa/pipenv)
 - [x] [tox](https://github.com/tox-dev/tox)
-  + [x] [pytest](https://github.com/pytest-dev/pytest)
-  + [x] [flake8](https://github.com/pycqa/flake8)
-  + [x] [pylint](https://github.com/PyCQA/pylint)
-  + [x] [mypy](https://github.com/python/mypy)
-  + [x] [vulture](https://github.com/jendrikseipp/vulture)
+  + [x] [pytest](https://github.com/pytest-dev/pytest) Run tests.
+  + [x] [flake8](https://github.com/pycqa/flake8) Lint code.
+  + [x] [pylint](https://github.com/PyCQA/pylint) Lint code.
+  + [x] [mypy](https://github.com/python/mypy) Optional type checking.
+  + [x] [vulture](https://github.com/jendrikseipp/vulture) Elimate dead code.
+  + [x] [yapf](https://github.com/google/yapf) Enforce formatting.
+    - [ ] pre-commit hook
 - [x] CI
   + [x] [travis](https://travis-ci.org)
   + [x] [circleci](https://circleci.com) (with workflow)

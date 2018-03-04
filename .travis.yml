@@ -14,5 +14,7 @@ matrix:
       env: TOXENV=mypy
     - python: "3.6"
       env: TOXENV=vulture
+    - python: "3.6"
+      env: TOXENV=yapf
 sudo: false
 script: tox -e $TOXENV

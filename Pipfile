@@ -17,6 +17,7 @@ mypy = "*"
 "flake8" = "*"
 vulture = "*"
 pytest-cov = "*"
+yapf = "*"
 
 
 [requires]
