@@ -2,9 +2,9 @@
 
 **Work in progress.**
 
-| CircleCI | Travis |
-|----------|--------|
-| [![CircleCI](https://circleci.com/gh/sveitser/python-mummy.svg?style=shield)](https://circleci.com/gh/sveitser/python-mummy) | [![Build Status](https://travis-ci.org/sveitser/python-mummy.svg?branch=master)](https://travis-ci.org/sveitser/python-mummy) |
+| CircleCI | Travis | Codecov |
+|----------|--------|---------|
+| [![CircleCI](https://circleci.com/gh/sveitser/python-mummy.svg?style=shield)](https://circleci.com/gh/sveitser/python-mummy) | [![Build Status](https://travis-ci.org/sveitser/python-mummy.svg?branch=master)](https://travis-ci.org/sveitser/python-mummy) | [![codecov](https://codecov.io/gh/sveitser/python-mummy/branch/master/graph/badge.svg)](https://codecov.io/gh/sveitser/python-mummy) |
 
 Collection of stuff that keeps coming up when creating python projects.
 
@@ -18,7 +18,8 @@ Collection of stuff that keeps coming up when creating python projects.
   + [x] travis
   + [x] circleci
 - [x] coverage
-  + [ ] codecov
+  + [x] codecov
+  + [ ] coveralls
 - [x] Badges
 - [ ] bumpversion
 - [ ] ...

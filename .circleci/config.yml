@@ -7,9 +7,6 @@ jobs:
 
     steps:
       - checkout
-
-      - run: sudo pip install tox
-
-      - run:
-          name: tox
-          command: tox
+      - run: sudo pip install codecov tox
+      - run: tox
+      - run: codecov
