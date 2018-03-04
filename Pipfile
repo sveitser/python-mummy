@@ -18,6 +18,7 @@ mypy = "*"
 vulture = "*"
 pytest-cov = "*"
 yapf = "*"
+pre-commit = "*"
 
 
 [requires]

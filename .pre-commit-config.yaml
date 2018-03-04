@@ -1,0 +1,16 @@
+- repo: git://github.com/pre-commit/mirrors-yapf
+  rev: HEAD
+  hooks:
+  - id: yapf
+# - repo: git://github.com/blarghmatey/pytest-mirror
+#   rev: HEAD
+#   hooks:
+#   - id: pytest
+- repo: git://github.com/pre-commit/mirrors-pylint
+  rev: HEAD
+  hooks:
+  - id: pylint
+- repo: git://github.com/pre-commit/pre-commit-hooks
+  sha: HEAD
+  hooks:
+  - id: flake8
