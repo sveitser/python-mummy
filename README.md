@@ -12,7 +12,7 @@ Collection of stuff that keeps coming up when creating python projects.
   + [x] mypy
 - [ ] CI
   + [ ] travis
-  + [ ] circleci
+  + [x] circleci
 - [x] coverage
   + [ ] codecov
 - [ ] Badges?
