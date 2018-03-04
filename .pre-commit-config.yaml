@@ -14,3 +14,7 @@
   sha: HEAD
   hooks:
   - id: flake8
+- repo: git://github.com/OJFord/pre-commit-mypy
+  sha: HEAD
+  hooks:
+  - id: mypy

@@ -26,6 +26,7 @@ pipenv run pre-commit install
   + [x] [yapf](https://github.com/google/yapf) Enforce formatting.
 + [x] [pre-commit](https://pre-commit.com) Pre-commit hooks.
   - [x] flake8
+  - [x] mypy
   - [x] pylint
   - [ ] pytest
   - [ ] vulture
