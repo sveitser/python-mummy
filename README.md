@@ -9,20 +9,21 @@
 Collection of stuff that keeps coming up when creating python projects.
 
 - [x] setup.py
-- [x] tox
-  + [x] pytest
-  + [x] flake8
-  + [x] pylint
-  + [x] mypy
-  + [x] vulture
+- [x] [pipenv](https://github.com/pypa/pipenv)
+- [x] [tox](https://github.com/tox-dev/tox)
+  + [x] [pytest](https://github.com/pytest-dev/pytest)
+  + [x] [flake8](https://github.com/pycqa/flake8)
+  + [x] [pylint](https://github.com/PyCQA/pylint)
+  + [x] [mypy](https://github.com/python/mypy)
+  + [x] [vulture](https://github.com/jendrikseipp/vulture)
 - [x] CI
-  + [x] travis
-  + [x] circleci
+  + [x] [travis](https://travis-ci.org)
+  + [x] [circleci](https://circleci.com)
 - [x] coverage
-  + [x] codecov
-  + [ ] coveralls
+  + [x] [codecov](https://codecov.io)
+  + [ ] [coveralls](https://coveralls.io)
 - [x] Badges
-- [ ] bumpversion
+- [ ] [bumpversion](https://github.com/peritus/bumpversion)
 - [ ] ...
 
 Credits:
