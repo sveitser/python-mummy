@@ -2,10 +2,11 @@
   rev: HEAD
   hooks:
   - id: yapf
-# - repo: git://github.com/blarghmatey/pytest-mirror
-#   rev: HEAD
-#   hooks:
-#   - id: pytest
+- repo: git://github.com/sveitser/pytest-mirror
+  rev: HEAD
+  hooks:
+  - id: pytest
+    args: []
 - repo: git://github.com/pre-commit/mirrors-pylint
   rev: HEAD
   hooks:

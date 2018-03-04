@@ -28,7 +28,7 @@ pipenv run pre-commit install
   - [x] flake8
   - [x] mypy
   - [x] pylint
-  - [ ] pytest
+  - [x] pytest
   - [ ] vulture
   - [x] yapf
 - [x] CI
