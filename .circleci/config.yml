@@ -1,12 +1,47 @@
+defaults: &defaults
+  docker:
+    - image: circleci/python:3.6.4
+
 version: 2
 jobs:
-  build:
-    docker:
-      - image: circleci/python:3.6.4
-    working_directory: ~/repo
-
+  test:
+    <<: *defaults
     steps:
       - checkout
       - run: sudo pip install codecov tox
-      - run: tox
+      - run: tox -e test
       - run: codecov
+  flake8:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: sudo pip install tox
+      - run: tox -e flake8
+  pylint:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: sudo pip install tox
+      - run: tox -e pylint
+  mypy:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: sudo pip install tox
+      - run: tox -e mypy
+  vulture:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: sudo pip install tox
+      - run: tox -e vulture
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - test
+      - flake8
+      - pylint
+      - mypy
+      - vulture

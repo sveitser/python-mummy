@@ -18,7 +18,7 @@ Collection of stuff that keeps coming up when creating python projects.
   + [x] [vulture](https://github.com/jendrikseipp/vulture)
 - [x] CI
   + [x] [travis](https://travis-ci.org)
-  + [x] [circleci](https://circleci.com)
+  + [x] [circleci](https://circleci.com) (with workflow)
 - [x] coverage
   + [x] [codecov](https://codecov.io)
   + [ ] [coveralls](https://coveralls.io)
