@@ -2,6 +2,10 @@
 
 **Work in progress.**
 
+| CircleCI | Travis |
+|----------|--------|
+| [![CircleCI](https://circleci.com/gh/sveitser/python-mummy.svg?style=shield)](https://circleci.com/gh/sveitser/python-mummy) | [![Build Status](https://travis-ci.org/sveitser/python-mummy.svg?branch=master)](https://travis-ci.org/sveitser/python-mummy) |
+
 Collection of stuff that keeps coming up when creating python projects.
 
 - [x] setup.py
@@ -15,7 +19,7 @@ Collection of stuff that keeps coming up when creating python projects.
   + [x] circleci
 - [x] coverage
   + [ ] codecov
-- [ ] Badges?
+- [x] Badges
 - [ ] bumpversion
 - [ ] ...
 
