@@ -10,8 +10,8 @@ Collection of stuff that keeps coming up when creating python projects.
   + [x] flake8
   + [x] pylint
   + [x] mypy
-- [ ] CI
-  + [ ] travis
+- [x] CI
+  + [x] travis
   + [x] circleci
 - [x] coverage
   + [ ] codecov
