@@ -12,11 +12,11 @@ name = "pypi"
 [dev-packages]
 
 pytest = "*"
-pytest-coverage = "*"
 pylint = "*"
 mypy = "*"
 "flake8" = "*"
 vulture = "*"
+pytest-cov = "*"
 
 
 [requires]
