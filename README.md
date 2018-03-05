@@ -10,9 +10,9 @@ Collection of stuff that keeps coming up when creating python projects.
 
 ### Development
 ```bash
-pipenv install --dev
-# install pre commit hooks
-pipenv run pre-commit install
+ln -s ../../pre-commit .git/hooks    # link pre commit hooks
+pipenv install --dev                 # install python environment
+pipenv shell                         # activate python environment
 ```
 
 - [x] setup.py
@@ -24,12 +24,12 @@ pipenv run pre-commit install
   + [x] [mypy](https://github.com/python/mypy) Optional type checking.
   + [x] [vulture](https://github.com/jendrikseipp/vulture) Elimate dead code.
   + [x] [yapf](https://github.com/google/yapf) Enforce formatting.
-+ [x] [pre-commit](https://pre-commit.com) Pre-commit hooks.
++ [x] In repo pre-commit hook.
   - [x] flake8
   - [x] mypy
   - [x] pylint
   - [x] pytest
-  - [ ] vulture
+  - [x] vulture
   - [x] yapf
 - [x] CI
   + [x] [travis](https://travis-ci.org)
