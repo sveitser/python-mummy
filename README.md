@@ -22,8 +22,8 @@ pipenv shell                         # activate python environment
   + [x] [flake8](https://github.com/pycqa/flake8) Lint code.
   + [x] [pylint](https://github.com/PyCQA/pylint) Lint code.
   + [x] [mypy](https://github.com/python/mypy) Optional type checking.
-  + [x] [vulture](https://github.com/jendrikseipp/vulture) Elimate dead code.
-  + [x] [yapf](https://github.com/google/yapf) Enforce formatting.
+  + [x] [vulture](https://github.com/jendrikseipp/vulture) Eat dead code.
+  + [x] [yapf](https://github.com/google/yapf) Enforce/fix code formatting.
 + [x] In repo pre-commit hook.
   - [x] flake8
   - [x] mypy
